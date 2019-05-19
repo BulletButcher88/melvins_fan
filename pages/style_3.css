@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --pink: hotpink;
+    --random: lightblue;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#band_name {
+    font-family: 'New Rocker', cursive;
+    color: rgb(7, 7, 131);
+    display: block;
+    text-justify: inherit;
+    font-size: 12vw;
+    border-bottom: 6px solid greenyellow;
+    border-top: 6px solid greenyellow;
+}
+
+#band_name:hover {
+    transform: rotate(180deg);
+    color: var(--pink)
+}
+
+.profie_pic img:hover {
+    filter: invert(100%);
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#side_menu {
+    font-family: 'New Rocker', cursive;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 140px;
+    z-index: inherit;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.6rem;
+}
+
+a {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(96, 36, 36);
+    margin: .5rem;
+    text-decoration: none;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+a:hover {
+    color: rgb(99, 160, 7);
+}
+
+img {
+    width: 100%;
+}
+
+.tees img {
+    width: 38vw;
+}
+
+article {
+    font-family: 'Merriweather', serif;
+}
+
+#twist_click p:hover {
+    border-bottom: 4px solid greenyellow;
+}
+
+#menu_click p:hover {
+    border-bottom: 4px solid greenyellow;
+}
+
+#ya_mum_click p:hover {
+    border-bottom: 4px solid greenyellow;
+}
+
+.contain {
+    float: right;
+    width: calc(100% - 140px);
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+    width: 100%;
+    font-size: 3vw;
+}
+
+.tee-profile {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tee-profile img:hover {
+    filter: none;
+}
+
+.tee-profile h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.pure-button {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 2.5vw;
+    color: grey;
+}
+
+.pure-button i {
+    line-height: 2rem;
+}
+
+.pure-button:hover {
+    color: black;
+}

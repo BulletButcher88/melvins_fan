@@ -1,0 +1,121 @@
+ body {
+     background-color: lightblue;
+     margin: 0;
+ }
+ 
+ #band_name {
+     color: rgb(7, 7, 131);
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 70vw;
+     text-justify: inherit;
+     font-size: 16vw;
+     border-bottom: 6px solid greenyellow;
+     border-top: 6px solid greenyellow;
+ }
+ 
+ #band_name:hover {
+     transform: rotate(180deg);
+     color: hotpink;
+ }
+ 
+ a {
+     font-size: 4.2vw;
+     color: rgb(96, 36, 36);
+     margin: .5rem;
+     text-decoration: none;
+     display: inline;
+     margin-left: 6.5vw;
+     margin-right: auto;
+     width: 95%;
+ }
+ 
+ a:hover {
+     color: greenyellow;
+ }
+ 
+ img {
+     display: inline;
+     width: 100%;
+     max-width: 900px;
+     max-height: 600px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+ }
+ 
+ img:hover {
+     filter: invert(100%);
+ }
+ 
+ #menu_bar {
+     margin: .5vw;
+ }
+ 
+ header {
+     float: right;
+     width: 100%;
+     padding-bottom: 1%;
+ }
+ 
+ footer {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 18%;
+ }
+ 
+ h5 {
+     font-size: 0.6rem;
+     display: block;
+ }
+ 
+ article {
+     padding-left: 5vw;
+     padding-right: 5vw;
+     font-family: 'Merriweather', serif;
+ }
+ 
+ #bio div {
+     font-family: 'Merriweather', serif;
+ }
+ 
+ iframe {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60vw;
+     height: 40vw
+ }
+ 
+ h4 {
+     margin-left: 5vw;
+ }
+ 
+ #logo {
+     padding: 1vw;
+ }
+ 
+ .icon {
+     padding: 1vw;
+ }
+ 
+ .fab {
+     font-size: 4vw;
+     padding-right: 0.2vw;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+     align-items: flex-end;
+ }
+ 
+ .fas {
+     font-size: 4vw;
+     padding-right: 0.2vw;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+     align-items: flex-end;
+ }
